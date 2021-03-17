@@ -2,7 +2,7 @@ import Form from "./Form";
 const App = () => {
   const loginFields = [
     { email: { type: "email" } },
-    { passwords: { type: "password" } },
+    { passwordss: { type: "password" } },
   ];
   return <Form fields={loginFields} />;
 };
